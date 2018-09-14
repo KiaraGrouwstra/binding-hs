@@ -23,6 +23,7 @@ import OpenAI.Gym.Prelude
 import qualified Data.Text  as T
 import qualified Data.Aeson as A
 
+-- | a Gym environment
 data GymEnv
   -- | Classic Control Environments
   = CartPoleV0               -- ^ Balance a pole on a cart (for a short time).
